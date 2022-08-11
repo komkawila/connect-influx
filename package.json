@@ -2,7 +2,7 @@
   "name": "connect-influx",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
     "start": "node api.js",
     "dev": "nodemon api.js",
