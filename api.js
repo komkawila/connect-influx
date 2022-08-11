@@ -12,7 +12,8 @@ const corsOptions = {
     origin: 'http://localhost:3003',//Allow client
     credentials: true,
 };
-app.use(cors(corsOptions));
+app.use(cors());
+// app.use(cors(corsOptions));
 // End Api
 
 app.use(bodyParser.json());
